@@ -1,0 +1,56 @@
+ @import "button";
+
+ * {
+     Margin: 0;
+     Padding: 0;
+     Box-sizing: border-box;
+     Font-family: xyz;
+ }
+
+ html,
+ body {
+     Width: 100%;
+     Height: 100%;
+ }
+
+ @mixin center-flex($flex-direction: column) {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: $flex-direction;
+ }
+
+ main {
+     height: 100%;
+     width: 100%;
+     @include center-flex;
+     background-color: rgba(0, 0, 0, 0.89);
+
+     section {
+         height: 50%;
+         width: 50%;
+         background-color: lightgray;
+         @include center-flex;
+
+         h1 {
+             font-size: 10rem;
+             color: red;
+
+         }
+
+         .btn {
+             gap: 20px;
+
+             @include center-flex(row);
+         }
+     }
+ }
+
+.btn-red{
+     @include btn-style(red);
+
+ }
+
+.btn-blue{
+     @include btn-style(blue);
+ }

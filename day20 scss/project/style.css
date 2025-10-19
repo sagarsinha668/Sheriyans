@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+main section {
+  height: 100%;
+  width: 20%;
+  flex-grow: 1;
+  border: 2px solid rgb(186, 162, 162);
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgb(34, 1, 1);
+}
+main section:nth-child(1) {
+  background-color: rgb(53, 151, 48);
+}/*# sourceMappingURL=style.css.map */

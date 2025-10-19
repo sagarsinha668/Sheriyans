@@ -1,0 +1,64 @@
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+  Font-family: xyz;
+}
+
+html,
+body {
+  Width: 100%;
+  Height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+main section {
+  height: 50%;
+  width: 50%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main section h1 {
+  font-size: 10rem;
+  color: red;
+}
+main section .btn {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn-red {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-blue {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
