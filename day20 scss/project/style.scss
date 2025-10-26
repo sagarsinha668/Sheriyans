@@ -1,27 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 main {
     height: 100%;
     width: 100%;
     display: flex;
 
-    section{
+    section {
         height: 100%;
-        width: 20%;
         flex-grow: 1;
-        border: 2px solid rgb(186, 162, 162);
-        font-size: 2rem;
-        font-weight: bold;
-        background-color: rgb(34, 1, 1);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+        background-color: black;
     }
-    section:nth-child(1){
-        background-color: rgb(53, 151, 48);
+
+    section:hover {
+        flex-grow: 3;
+        background-size: contain;
+        //   background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    section:nth-child(1) {
+        background-image: url(./media/spider\ man.jpeg);
+    }
+
+    section:nth-child(2) {
+        background-image: url(./media/zoro.jpeg);
+    }
+
+    section:nth-child(3) {
+        background-image: url(./media/demon\ slayer.jpeg);
+    }
+
+    section:nth-child(4) {
+        background-image: url(./media/gojo.jpeg);
+    }
+
+    section:nth-child(5) {
+        background-image: url(./media/itachi.jpeg);
     }
 }

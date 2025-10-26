@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -16,13 +17,29 @@ main {
 }
 main section {
   height: 100%;
-  width: 20%;
   flex-grow: 1;
-  border: 2px solid rgb(186, 162, 162);
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: rgb(34, 1, 1);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: black;
+}
+main section:hover {
+  flex-grow: 3;
+  background-size: contain;
+  background-position: center;
 }
 main section:nth-child(1) {
-  background-color: rgb(53, 151, 48);
+  background-image: url(./media/spider\ man.jpeg);
+}
+main section:nth-child(2) {
+  background-image: url(./media/zoro.jpeg);
+}
+main section:nth-child(3) {
+  background-image: url(./media/demon\ slayer.jpeg);
+}
+main section:nth-child(4) {
+  background-image: url(./media/gojo.jpeg);
+}
+main section:nth-child(5) {
+  background-image: url(./media/itachi.jpeg);
 }/*# sourceMappingURL=style.css.map */
