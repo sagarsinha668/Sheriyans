@@ -1,0 +1,27 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+#testing{
+Width:400px;
+height:400%;
+Background-color: yellow;
+}
+#fix{
+position: fixed;
+top: 50%;
+Width:100px;
+Height:100px;
+Background-color: red;
+}
+#box{
+    left: 50%;
+    position: absolute;
+    Width:50px; Height:50px; Background-color: blue; }

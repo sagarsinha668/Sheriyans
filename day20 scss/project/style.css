@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +25,13 @@ main section {
   background-color: black;
 }
 main section:hover {
-  flex-grow: 3;
-  background-size: contain;
+  flex-grow: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 main section:nth-child(1) {
-  background-image: url(./media/spider\ man.jpeg);
+  background-image: url(./media/best\ spiderman\ 4k\ wallpaper\ amoled\ dark\ aesthetic….jpeg);
 }
 main section:nth-child(2) {
   background-image: url(./media/zoro.jpeg);
