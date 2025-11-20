@@ -1,0 +1,71 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: azure;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: #222;
+}
+
+nav a{
+    Font-family: tomatoes;
+    text-decoration-line: none;
+    color: antiquewhite;
+}
+
+.navlink{
+    display: flex;
+    gap: 1rem;
+}
+#logo h3{
+    font-weight: 900;
+}
+main{
+    padding: 2% 5%;
+
+}
+main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    font-size: 17vw;
+}
+.content{
+
+}
+.content h2{
+    font-size: 1rem;
+}
+.content p{
+    padding: 0.5rem 0;
+width: 50%;
+}
+
+img{
+    position: absolute;
+}
+#img3{
+    top: 69vh;
+    left: 60vw;
+}
+#img2{
+    top: 55vh;
+    left: 35vw;
+    height: 50%;
+}
+#img1{
+    top: 60vh;
+    width: 18vw;
+    left: 73vw;
+}

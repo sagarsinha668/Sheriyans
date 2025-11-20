@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "applefont";
+    src: url(./media/sf-pro-text_regular.woff2);
+}
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: "applefont";
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    padding: 2vw 3vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+i{
+    color: white;
+    font-size: 1.2rem;
+}
+#icons{
+    display: flex;
+    gap: 3vw;
+}
+main{
+    height: 80vh;
+    /* width: 100vw; */
+    background-image: url("media/hero_apple.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@media main {
+    main{
+    height: 80vh;
+    /* width: 100vw; */
+    background-image: url("media/hero__bdntboqignj6_small_2x.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+}

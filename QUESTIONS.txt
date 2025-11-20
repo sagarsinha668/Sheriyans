@@ -1,4 +1,11 @@
+HTML
+what is html why we use it
+what is tags and attribute
+what is semantics
+
+
+CSS
 what is id
 what is class
 what is div
-difference b/w 
+priority of * tag id class 

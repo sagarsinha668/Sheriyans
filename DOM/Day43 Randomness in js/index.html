@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generation</title>
+</head>
+<body>
+    <h1 id="password"></h1>
+    <button id="getpassword">Get Your Password</button>
+</body>
+<script>
+    const h1 = document.getElementById("password")
+    let getpassword = document.getElementById("getpassword")
+    getpassword.addEventListener("click",()=>{
+        const password = Math.floor(Math.random()*10000)
+        h1.textContent = password   
+
+    })
+</script>
+</html>

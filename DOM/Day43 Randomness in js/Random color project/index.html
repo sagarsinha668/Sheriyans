@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Random Color</title>
+    <style>
+        #box{
+            height: 400px;
+            width: 400px;
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <button id="Createrndmcolor">Get Random Color</button>
+</body>
+<script>
+    let box = document.getElementById("box")
+    let Createrndmcolor = document.getElementById("Createrndmcolor")
+    Createrndmcolor.addEventListener("click", () => {
+
+        let r = Math.floor(Math.random() * 256);
+        let g = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+         
+        let newcolor = `rgb(${r},${g},${b})`
+        console.log(newcolor);
+        
+
+        box.style.backgroundColor = newcolor
+    })
+</script>
+
+</html>
