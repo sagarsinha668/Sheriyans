@@ -1,0 +1,18 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color:rgb(6, 6, 6);
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background: radial-gradient(100px at 50px 50px,red,white)
+}

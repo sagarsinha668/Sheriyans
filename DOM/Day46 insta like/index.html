@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Link Copy</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<style>
+    * {
+        Margin: 0;
+        Padding: 0;
+        Box-sizing: border-box;
+        Font-family: xyz;
+    }
+
+    html,
+    body {
+        Width: 100%;
+        Height: 100%;
+    }
+
+    main {
+        Width: 100%;
+        Height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #111;
+
+    }
+
+
+    .card {
+        position: relative;
+        background-color: rgb(85, 85, 84);
+        padding: 20px;
+        border-radius: 1rem;
+    }
+
+    .card img {
+        height: 50vh;
+        border-radius: 1rem;
+    }
+
+    i {
+        position: absolute;
+        background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 4rem;
+        top: 40%;
+        left: 40%;
+        opacity: 0;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/64/19/d3/6419d394b28ab52c2c1ad803f0f75e08.jpg" alt="">
+            <i class="ri-heart-fill"></i>
+        </div>
+    </main>
+</body>
+<script>
+    let card = document.querySelector("img")
+    let heart = document.querySelector("i")
+
+    card.addEventListener("dblclick", () => {
+        heart.style.opacity = 1
+        setTimeout(() => {
+            heart.style.opacity = 0
+            heart.style.transform= translate(-50%,-50%)
+        }, (1000))
+    })
+</script>
+
+</html>
